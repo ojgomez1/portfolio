@@ -10,11 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/style/studentportfolio.css">
     <script src="https://kit.fontawesome.com/eee2dcd015.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
     <div id="container">
         <h1>Portfolio of Oscar Gomez</h1>
+        <br>
 
         <div class="tab">
             <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Profile</button>
@@ -23,33 +25,93 @@
             <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
             <button class="tablinks" onclick="openTab(event, 'Accomplishments')">Accomplishments</button>
             <button class="tablinks" onclick="openRedirect('workexamples.html')">Work Examples</button>
-            <button class="tablinks" onclick="openTab(event, 'CoverLetter')">Cover Letter</button>
-            <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
         </div>
 
         <!-- Begin Home Section -->
         <div id="Home" class="tabcontent">
-              <h2>Profile</h2>
-              <img src="assets/images/apic.JPG" style="width: 300px;" atl="Profile Photo">
-              <p>My name is Oscar Gomez I am a student at University of Arkansas at Little Rock. I am majoring in Criminal Justice with a minor in Information Technology and a certificate of Proficiency in workplace Spanish. I chose to study web design because I think technology plays a big part of our lives and I am very passionate about creating, designing and renovating things. In this portfolio, you will find some of the work I have done in the past and skills i have refined with time.</p>
-              <p>Welcome to my website</p>
+              <br>
+              <img src="assets/images/apic.JPG" style="width: 300px;" atl="Profile Photo" class="center">
+              <br>
+              <br>
+              <div class="home_text">
+                  <h3>My name is Oscar Gomez I am a student at University of Arkansas at Little Rock. I am majoring in Criminal Justice with a minor in Information Technology and a certificate of Proficiency in workplace Spanish. I chose to study web design because I think technology plays a big part of our lives and I am very passionate about creating, designing and renovating things. In this portfolio, you will find some of the work I have done in the past and skills i have refined with time.</h3>
+              </div>
+              
               <br>&nbsp;
               <br>&nbsp;
-              <br>&nbsp;
-              <br>&nbsp;
+              
+              
+              <div class="home_links">
+                  <div clas="icon">
+                     <a href="https://www.linkedin.com/in/oscar-gomez501/"><i class="fab fa-linkedin"></i></a>
+                      
+                  </div>
+              </div>
         </div>
 
         <!-- Begin Skills Section -->
         <div id="Skills" class="tabcontent">
-            <h2>Skills</h2>
+            <h2>Logos and Design</h2>
+            <br>
+            <div class="pics">
+            <img src="assets/images/stemsketch1.jpg" alt="picture" style="width: 300px;">
+            <img src="assets/images/STEMlogo.jpg" alt="picture" style="width: 300px;">
+            <img src="assets/images/stemsketch.jpg" alt="picture" style="width: 300px;">
+            <img src="assets/images/stem2.png" alt="picture" style="width: 300px;">
+            <img src="assets/images/buffalo2.png" alt="picture" style="width: 300px;">
+            <img src="assets/images/Newlogobr.png" alt="picture" style="width: 300px;">
+            <img src="assets/images/newoutro.jpg" alt="picture" style="width: 300px;">
+            <br>
+            <img src="assets/images/oscar1-2.png" alt="picture" style="width: 350px;">
+            </div>
+    
         </div>
 
         <div id="Education" class="tabcontent">
           <h2>Education</h2>
+          <div class="edu">
+              <h3>B.A. - Criminal Justice</h3>
+              <br>
+              <h4>A minor in Information Technology and a Certificate of proficiency in Workplace Spanish</h4>
+              <br>
+              <h4>University of Arkansas at Little Rock</h4>
+              <br>
+              <p>August 2018 - Present</p>
+              
+          </div>
+        
         </div>
 
         <div id="Accomplishments" class="tabcontent">
             <h2>Accomplishments</h2>
+            <div class="accom">
+            <ul>
+                <li>
+                   <div class="icon">
+                   <i class="fas fa-university"></i>
+                   <div class="text">LULAC Scholarship Recipient 2019-2020</div>
+                   </div>
+                </li>
+                 <li>
+                    <div class="icon">
+                      <i class="fas fa-trophy"></i>
+                         <div class="text">LULAC student of the year 2019-2020</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                      <i class="fas fa-award"></i>
+                       <div class="text">Dean's List 2019-Present</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                     <i class="fas fa-medal"></i>
+                     <div class="text">Chancellor's List 2019-2020</div>
+                    </div>
+                </li>
+            </ul>
+         </div>
         </div>        
         
         <!-- Begin Skills Section -->
@@ -88,7 +150,7 @@
                                         <div class="icon">
                                             <i class="fas fa-mouse"></i>
                                         </div>
-                                        <div class="text">www.mywebsite.com</div>
+                                        <div class="text">https://ojgomez1.github.io/portfolio/</div>
                                     </div>
                                 </li>
                                 <li>
@@ -292,6 +354,11 @@
                             <div class="title">
                                 PDF Resume
                             </div>
+                            <div class="re_link">
+                            <h3><a href="assets/2020Resume.pdf" download> Download PDF Resume</a></h3>
+                            <br>
+                            <h3><a href="assets/CoverLetter2020.pdf" download> Download Cover Letter</a></h3>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -300,12 +367,16 @@
         
         <div id="CoverLetter" class="tabcontent">
             <h2>Letter of Introduction</h2>
+            <p>hello</p>
+
         </div>
 
         <div id="Contact" class="tabcontent">
             <h2>Contact Me</h2>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc98RXxT-3XcbEmMGqJeYONC0H1cBR9HxDFP_uF5Y-QSNWu0w/viewform?embedded=true" width="640" height="673" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>    
 </div>
 <script type="text/javascript" src="assets/scripts/index.js"></script>
+
 </body>
 </html>

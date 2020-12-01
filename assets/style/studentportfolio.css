@@ -15,6 +15,65 @@ body {
 	
 	}
 	
+.tab {
+    text-align: center;
+}
+	
+.work_ex {
+background: #292b2f;
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;
+word-spacing: 8px;
+line-height: 30px;
+}
+
+.work_ex a:hover{
+    font-size: 150%;
+}
+
+.re_link a:link {
+    color: #292b2f;
+}
+
+.tabcontent a {
+  color: #fff;
+}
+
+.tabcontent a:link {
+  text-decoration: none;
+}
+
+.tabcontent a:visited {
+  text-decoration: none;
+}
+
+.tabcontent a:hover {
+  background-color: #9153c9;
+}
+	
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 30px;
+}
+
+.tabcontent {
+    color: #fff;
+    text-align: center;
+}
+
+.home_links {
+    font-size: 50px;
+}
+
+.home_text {
+    background: #292b2f;
+    padding: 20px 0;
+}
 
 .resume {
    width: 800px; 
@@ -35,7 +94,7 @@ body {
 
 .left .image_holder{
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .left .image_holder img{
@@ -257,7 +316,26 @@ body {
 	background: #9153c9;
 }
 
+/*Education Tab*/
 
+.edu {
+background: #292b2f;
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;  
+}
+
+.accom {
+background: #292b2f;
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px; 
+word-spacing: 8px;
+line-height: 30px;
+    
+}
 
 
 
@@ -295,30 +373,30 @@ p {
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 2px solid #ccc;
+    background-color: ##9153c9;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
     background-color: inherit;
-    float: left;
+    float: center;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+    background-color: #3525AF;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #ccc;
+    background-color: #3525AF;
 }
 
 /* Style the tab content */
